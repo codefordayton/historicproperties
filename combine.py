@@ -6,7 +6,7 @@ def convert_string_to_int(string):
 
 def search():
     all_props = open("./daytontaxroll.csv", "r")
-    scraped_props = open("./scraped.csv", "r")
+    scraped_props = open("./rawscraped.csv", "r")
     historic_props = open("./historic.csv", "r")
     combined = open("./historicscraped.csv", "w")
 
