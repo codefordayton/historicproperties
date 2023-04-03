@@ -14,6 +14,8 @@ def search():
     scraped_reader = csv.reader(scraped_props)
     historic_reader = csv.reader(historic_props)
 
+    next(scraped_reader)
+
     match_writer = csv.writer(combined)
 
     count = 0
